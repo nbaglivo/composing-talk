@@ -1,26 +1,24 @@
-@title[topic]
-
-All modern software development is really composition: We break a large, complex problem down into smaller, simpler problems, and then compose solutions to form an application.
-
----
-
 @title[abstraction]
 
-The process of decomposition is the process of abstraction.
+The process of abstraction is the process of decomposition.
+
+---
+
+@title[abstraction_what_is_it]
+
+We break a large, complex problem down into smaller, simpler problems, and then compose solutions to form an application.
 
 ---
 
 @title[principle]
 
-Principle:
-
-Software solutions should be decomposable into their component parts
+Software solutions should be decomposable into their component parts.
 
 ---
 
 @title[principle]
 
-Components can be recomponse into new solutions, without changing the internal component implementation details.
+Components can be recomponsed into new solutions without changing the internal component implementation details.
 
 ---
 
