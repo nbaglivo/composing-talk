@@ -7,15 +7,20 @@ All modern software development is really composition: We break a large, complex
 @title[abstraction]
 
 The process of decomposition is the process of abstraction.
-Successful abstraction implies that the result is a set of independently useful and recomposable components.
 
 ---
 
 @title[principle]
 
-software architecture's principle:
+Principle:
 
-Software solutions should be decomposable into their component parts, and recomposable into new solutions, without changing the internal component implementation details.
+Software solutions should be decomposable into their component parts
+
+---
+
+@title[principle]
+
+Components can be recomponse into new solutions, without changing the internal component implementation details.
 
 ---
 
@@ -33,7 +38,7 @@ Abstraction in software takes many forms:
 
 @title[functions]
 
-Functions make great abstractions because they possess the qualities that are essential for a good abstraction:
+Functions possess qualities that are essential for a good abstraction:
 
 * Identity — The ability to assign a name to it and reuse it in different contexts.
 * Composition — The ability to compose simple functions to form more complex functions.
@@ -43,11 +48,13 @@ Functions make great abstractions because they possess the qualities that are es
 @title[pure_functions]
 
 The most useful functions for abstraction in software are pure functions, which share modular characteristics with functions from math.
-In math, a function given the same inputs will always return the same output. It’s possible to see functions as relations between inputs and outputs. Given some input A, a function f will produce B as output
+In math, a function given the same inputs will always return the same output.
 
 ---
 
 @title[pure_functions_examples]
+
+ It’s possible to see functions as relations between inputs and outputs. Given some input A, a function f will produce B as output
 
 `f: A -> B`
 
