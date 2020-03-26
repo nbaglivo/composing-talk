@@ -31,15 +31,37 @@ Abstraction in software takes many forms:
 * Modules
 * Classes
 * Frameworks
+* Functions
+
+---
+@title[characteristics_of_good_abstractions]
+
+Characteristics of good abstractions:
+
+* Simple
+* Concise
+* Reusable
+* Independent
+* Decomposable
+* Recomposable
 
 ---
 
 @title[functions]
 
-Functions possess qualities that are essential for a good abstraction:
+Functions possess qualities that are essential for a good abstraction
 
-* Identity — The ability to assign a name to it and reuse it in different contexts.
-* Composition — The ability to compose simple functions to form more complex functions.
+---
+
+@title[functions]
+
+Identity — The ability to assign a name to it and reuse it in different contexts.
+
+---
+
+@title[functions]
+
+Composition — The ability to compose simple functions to form more complex functions.
 
 ---
 
@@ -60,18 +82,6 @@ In math, a function given the same inputs will always return the same output.
 
 
 then exists `h: A -> C` which is really `A -> B -> C`. The complexity is hide without any effort.
-
----
-@title[characteristics_of_good_abstractions]
-
-Characteristics of good abstractions:
-
-* Simple
-* Concise
-* Reusable
-* Independent
-* Decomposable
-* Recomposable
 
 ---
 @title[no_pure_functions]
