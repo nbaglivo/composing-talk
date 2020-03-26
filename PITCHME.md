@@ -59,15 +59,7 @@ In math, a function given the same inputs will always return the same output.
 `g: B -> C`
 
 
-then exists `h: A -> C` which hides complexity reducing `A -> B -> C`.
-
----
-
-@title[no_pure_functions]
-
-
-Functions that are not pure might not have this property. If they change state somewhere else
-then the function is not independent and cannot be used in different context.
+then exists `h: A -> C` which is really `A -> B -> C`. The complexity is hide without any effort.
 
 ---
 @title[characteristics_of_good_abstractions]
@@ -80,6 +72,13 @@ Characteristics of good abstractions:
 * Independent
 * Decomposable
 * Recomposable
+
+---
+@title[no_pure_functions]
+
+
+Functions that are not pure might not have this property. If they change state somewhere else
+then the function is not independent and cannot be used in different context.
 
 ---
 @title[plan_composition]
